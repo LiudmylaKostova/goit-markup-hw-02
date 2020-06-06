@@ -1,0 +1,33 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
+
+/* Страница Web Studio  */
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+/* Site-nav */
+
+.list {
+  list-style: none;
+}
+.site-nav {
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--title-text-color);
+}
+.accent-logo {
+  color: var(--accent-color);
+}
+.site-nav .link: hover,
+.site-nav .link: focus {
+  color: var();
+}
