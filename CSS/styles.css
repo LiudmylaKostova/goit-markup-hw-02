@@ -11,23 +11,131 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
-
-/* Site-nav */
 
 .list {
   list-style: none;
 }
-.site-nav {
-  color: var(--primary-text-color);
-}
+/* site-nav */
+
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.site-nav .logo:hover,
+.site-nav .logo:focus {
+  color: var(--accent-color);
 }
 .accent-logo {
   color: var(--accent-color);
 }
-.site-nav .link: hover,
-.site-nav .link: focus {
-  color: var();
+.site-nav .link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .contacts:hover,
+.site-nav .contacts:focus {
+  color: var(--accent-color);
+}
+.site-nav .contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* Hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section .text {
+  color: var(--primary-text-color);
+}
+
+/* Benefits */
+.benefits-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.benefits .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Works */
+.works-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* Our team */
+.our-team {
+  background-color: var(--secondary-background-color);
+}
+.names {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.our-team .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Social-links */
+.social-links {
+  list-style: none;
+  text-decoration: none;
+}
+.social-links:hover,
+.social-links:focus {
+  color: var(--accent-color);
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Buttons */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.button.primary {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  text-decoration: none;
 }
