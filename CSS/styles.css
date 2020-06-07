@@ -28,6 +28,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+
 .site-nav .logo:hover,
 .site-nav .logo:focus {
   color: var(--accent-color);
@@ -36,7 +37,7 @@ body {
   color: var(--accent-color);
 }
 .site-nav .link {
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -138,4 +139,58 @@ body {
   color: var(--background-color);
   background-color: var(--accent-color);
   text-decoration: none;
+}
+/* Footer */
+.footer-logo {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.footer-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.call-to-action {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+/* Страница Портфолио */
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--background-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.button-portfolio .button.secondary:hover,
+.button-portfolio .button.secondary:focus {
+  color: var(--title-text-color);
+}
+.title-portfolio {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.text-portfolio {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.example .link:hover,
+.example .link:hover {
+  color: var(--accent-color);
 }
